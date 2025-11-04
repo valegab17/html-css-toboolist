@@ -9,10 +9,13 @@
 /*Utils*/
 .container-header, .container-body{
     background-color: #fff;
-    margin: 20px 120px;
+    margin: 20px 120px 0;
     padding: 20px;
 }
 
+.container-body{
+    margin-top: 2px;
+}
 .task-status{
     display:inline-block;
     border: 1px solid currentColor;
@@ -82,7 +85,7 @@ h1 {
 /*Tasks*/
 .task-text{
     font-size: 1rem;
-
+    line-height: 50px;
 }
 .task-type{
     color: #fff;
@@ -94,27 +97,26 @@ h1 {
    
 
 
-#bcg-blue, .task-type{
-    color: #fff;
+#bcg-blue{
     background-color: #49abec;
 
 }
 
 #bcg-purple{
-
+    background-color: #9b76e1;
 }
 
 #bcg-green{
-
+    background-color: #63c2a9;
 }
 
 #bcg-orange{
-
+    background-color: #f49e39;
 }
 
 #bcg-pink{
-
+    background-color: #d863a0;
 }
 #bcg-light-green{
-
+    background-color: #afc825;
 }

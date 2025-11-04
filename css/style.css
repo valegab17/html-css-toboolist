@@ -13,10 +13,21 @@
     padding: 20px;
 }
 
-.done{
+.task-status{
+    display:inline-block;
+    border: 1px solid currentColor;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.done,.task-status{
+    color: green;
 
 }
 .todo{
+    color: red;
 
 }
 
@@ -88,5 +99,5 @@ h1 {
 
 }
 #bcg-light-green{
-    
+
 }

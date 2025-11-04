@@ -9,6 +9,10 @@
 /*Utils*/
 .container{
     background-color: #fff;
+    margin: 20px 120px;
+    padding: 20px;
+    
+
 }
 
 /*Body layout*/
@@ -36,8 +40,6 @@ h1 {
 /*Buttons*/
 .buttons-container {
     background-color: #fff;
-    margin: 20px 120px;
-    padding: 20px;
 
 }
 

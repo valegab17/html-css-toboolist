@@ -5,20 +5,22 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 /*Utils*/
 
 
 /*Body layout*/
-body{
+body {
     background-color: lightgrey;
 }
+
 /*Banner*/
 .banner {
     padding: 10px;
     background-color: #fff;
 }
 
-#white-logo{
+#white-logo {
     vertical-align: middle;
 }
 
@@ -30,7 +32,20 @@ h1 {
 }
 
 /*Buttons*/
-.buttons{
+.buttons-container {
     background-color: #fff;
-    
+    margin: 20px 120px;
+    padding: 20px;
+
 }
+
+#task-button, #section-button{
+   padding: 10px;
+   background-color: #49abec;
+   border-radius: 5%;
+   border-style: none;
+   color: #fff;
+
+}
+
+#section

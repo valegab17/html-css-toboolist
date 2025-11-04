@@ -7,18 +7,22 @@
 }
 
 /*Utils*/
-.container-header .container-body{
+.container-header, .container-body{
     background-color: #fff;
     margin: 20px 120px;
     padding: 20px;
-    
-
 }
 
 .done{
 
 }
+.todo{
 
+}
+
+ul{
+    list-style-type: none;
+}
 /*Body layout*/
 body {
     background-color: lightgrey;

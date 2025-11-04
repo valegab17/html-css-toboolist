@@ -1,6 +1,30 @@
 /*css reset*/
-*{
+* {
     margin: 0;
     padding: 0;
-   box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*Utils*/
+
+
+/*Body layout*/
+body{
+    background-color: lightgrey;
+}
+/*Banner*/
+.banner {
+    padding: 10px;
+    background-color: #fff;
+}
+
+#white-logo{
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 600;
+    vertical-align: middle;
 }

@@ -20,6 +20,8 @@
     height: 20px;
     border-radius: 50%;
     text-align: center;
+    font-size: 15px;
+    line-height: 20px;
 
 }
 .done,.task-status{
@@ -78,8 +80,23 @@ h1 {
 }
 
 /*Tasks*/
+.task-text{
+    font-size: 1rem;
 
-#bcg-blue{
+}
+.task-type{
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+   
+
+
+#bcg-blue, .task-type{
+    color: #fff;
+    background-color: #49abec;
 
 }
 
